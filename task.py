@@ -5,6 +5,8 @@ def task_1(): # Lottery ticket generator
     ticket = []
 
     # Code here
+    for i in range(6):
+        ticket.append(randrange(1, 49))
     
     return ticket
 
@@ -31,3 +33,5 @@ def task_3():
     # Code here
 
     return # Code the sentence here
+
+print(task_1())
