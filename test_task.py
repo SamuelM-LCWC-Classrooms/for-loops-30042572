@@ -36,5 +36,5 @@ def test_task_2_60():
         assert result == check_list
         
 def test_task_3():
-    result = task_3
+    result = task_3()
     assert len(result) == 3

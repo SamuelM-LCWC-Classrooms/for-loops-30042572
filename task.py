@@ -41,4 +41,4 @@ def task_3():
     #return f"There will be {len(car_make_lengths)} different sizes of key rings."
     return car_make_lengths
 
-print(task_3())
+print(len(task_3()))
