@@ -15,6 +15,11 @@ def task_2(): # Countdown
     output = []
 
     # Code here
+    number = int(input("Enter a number below 100: "))
+    for i in (reversed(range(1, 101))):
+        output.append(i)
+        if (i == number):
+            break;
 
     return output
 
@@ -34,4 +39,4 @@ def task_3():
 
     return # Code the sentence here
 
-print(task_1())
+print(task_2())
