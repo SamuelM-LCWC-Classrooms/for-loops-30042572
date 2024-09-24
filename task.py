@@ -38,4 +38,7 @@ def task_3():
     for car_make in people_cars.values():
         car_make_lengths.add(len(car_make))
     
-    return f"There will be {len(car_make_lengths)} different sizes of key rings."
+    #return f"There will be {len(car_make_lengths)} different sizes of key rings."
+    return car_make_lengths
+
+print(task_3())
