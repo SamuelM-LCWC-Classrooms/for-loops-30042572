@@ -33,10 +33,9 @@ def task_3():
         "Celine": "Fiat"
     }
 
-    car_make_lengths = ()
+    car_make_lengths = set()
 
-    # Code here
-
-    return # Code the sentence here
-
-print(task_2())
+    for car_make in people_cars.values():
+        car_make_lengths.add(len(car_make))
+    
+    return f"There will be {len(car_make_lengths)} different sizes of key rings."
